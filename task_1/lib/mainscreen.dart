@@ -123,7 +123,7 @@ class _MainScreenState extends State<MainScreen> {
                   } else {
                     return ListTile(
                       title: Text(options[index].name),
-                      tileColor: Colors.grey[300],
+                      tileColor: Colors.white,
                     );
                   }
                 }),
